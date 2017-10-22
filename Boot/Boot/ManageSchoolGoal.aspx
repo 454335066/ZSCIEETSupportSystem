@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Boot.WebForm1" %>
 
+<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -74,7 +76,7 @@
 			                        <div class="panel-body">
 			                            <a href="ManageSchoolGoal.aspx">管理学校教育目标信息</a>
 			                        </div>
-                                  <div class="panel-body">
+                                    <div class="panel-body">
 			                            <a href="ManageCollegeGoal.aspx">管理学院教育目标信息</a>
 			                        </div>
                                     <div class="panel-body">
@@ -111,16 +113,16 @@
 			                    </div>
 			                    <div id="collapseThree" class="panel-collapse collapse">
 			                        <div class="panel-body">
-			                            <a href="#">管理专业学生核心能力</a>
+			                            <a href="ManageCoreCompetency.aspx">管理专业学生核心能力</a>
 			                        </div>
                                     <div class="panel-body">
-			                            <a href="#">管理专业核心能力涵养EAC核心能力关联表信息</a>
+			                            <a href="ManageAbility.aspx">管理专业核心能力涵养EAC核心能力关联表信息</a>
 			                        </div>  
                                     <div class="panel-body">
 			                            <a href="#">管理各个课程与核心能力的关联表信息</a>
 			                        </div> 
                                     <div class="panel-body">
-			                            <a href="#">管理教育目标与学生核心能力关联表信息</a>
+			                            <a href="ManageCoreCompetency_education.aspx">管理教育目标与学生核心能力关联表信息</a>
 			                        </div> 
                                     <div class="panel-body">
 			                            <a href="#">管理课程大纲信息</a>
@@ -153,7 +155,7 @@
 			                    </div>
 			                    <div id="collapseFour" class="panel-collapse collapse">
 			                        <div class="panel-body">
-			                            <a href="#">管理课程分析及评估表信息</a>
+			                            <a href="MangeCourseInformation.aspx">管理课程分析及评估表信息</a>
 			                        </div>
                                     <div class="panel panel-default">
 		                                 <div class="panel-heading">
@@ -163,13 +165,13 @@
 		                                      </div>
 		                                      <div id="collapseFour1" class="panel-collapse collapse">
 		                                           <div class="panel-body">
-		                                                <a href="#">管理专业课程地图信息</a>
+		                                                <a href="ManageCollegemap.aspx">管理专业课程地图信息</a>
 		                                           </div>
 		                                           <div class="panel-body">
-		                                                <a href="#">管理专业每年实际开课清单</a>
+		                                                <a href="ManageCollegeList.aspx">管理专业每年实际开课清单</a>
 		                                           </div> 
 		                                           <div class="panel-body">
-		                                                <a href="#">管理专业课与核心能力关联表信息</a>
+		                                                <a href="relation4_4.aspx">管理专业课与核心能力关联表信息</a>
 		                                           </div>    
 		                                           <div class="panel-body">
 		                                                <a href="#">其他材料信息</a>
@@ -181,7 +183,7 @@
 			                        </div>                         
 			                </div>
 	                    </div>
-				<div class="panel panel-default">
+                        <div class="panel panel-default">
 		                    <div class="panel-heading">
 			                    <h4 class="panel-title">
 			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">五、关于教师</a>

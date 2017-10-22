@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ManageVocationalGoal.aspx.cs" Inherits="Boot.ManagevocationalGoal" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ManageCoreCompetency.aspx.cs" Inherits="Boot.ManagementCoreCompetency" %>
 
 <!DOCTYPE html>
 
@@ -220,35 +220,45 @@
                         </div>
 					</div>
 				</div>
-				<div class="col-md-9 column">
-                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource3" Height="425px" Width="819px">
-                        <Columns>
-                            <asp:BoundField DataField="学年度" HeaderText="学年度" SortExpression="学年度" />
-                            <asp:BoundField DataField="专业" HeaderText="专业" SortExpression="专业" />
-                        </Columns>
-                    </asp:GridView>
-				    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ManageVocationalGoalConnectionString %>" SelectCommand="SELECT * FROM [VocationalGoal]"></asp:SqlDataSource>
-				
-	               <br />
-                    <br />
-                    <br />
-                    <br />
-                    <span style="position:absolute; right:200px; bottom:0px;">                               <!--将控件放在右下角-->
-                   <button type="button" class="btn btn-primary">增加</button>
-                    </span>
-                     <span style="position:absolute; right:150px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">删除</button>
-                    </span>
-                    <span style="position:absolute; right:100px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">查询</button>
-                     </span>
-                    <span style="position:absolute; right:50px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">修改</button>
-                    </span>
-	 </div>
+        <div class="col-md-9 column">
+        <blockquote>
+						<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="LinqDataSource1" Width="589px">
+                            <Columns>
+                                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
+                                <asp:BoundField DataField="ID" HeaderText="ID" SortExpression="ID" />
+                                <asp:BoundField DataField="CoreCompetency" HeaderText="CoreCompetency" SortExpression="CoreCompetency" />
+                                <asp:BoundField DataField="Specialty" HeaderText="Specialty" SortExpression="Specialty" />
+                                <asp:BoundField DataField="Version" HeaderText="Version" SortExpression="Version" />
+                            </Columns>
+        </asp:GridView>
+					    <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="Boot.DataClasses1DataContext" EnableDelete="True" EnableInsert="True" EnableUpdate="True" EntityTypeName="" TableName="TB_CoreCompetency">
+                        </asp:LinqDataSource>
+					    <br />
+					    <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataSourceID="LinqDataSource1" Height="50px" Width="513px">
+                            <Fields>
+                                <asp:BoundField DataField="ID" HeaderText="ID" SortExpression="ID" />
+                                <asp:BoundField DataField="CoreCompetency" HeaderText="CoreCompetency" SortExpression="CoreCompetency" />
+                                <asp:BoundField DataField="Specialty" HeaderText="Specialty" SortExpression="Specialty" />
+                                <asp:BoundField DataField="Version" HeaderText="Version" SortExpression="Version" />
+                                <asp:CommandField ShowInsertButton="True" />
+                            </Fields>
+                        </asp:DetailsView>
+					</blockquote>
+                    <asp:Button ID="Button1" runat="server" class="btn btn-primary btn-sm" Text="返回" OnClick="Button1_Click" />
+                    
+				</div>
+        <div style="float:right ;padding-top:50px">
+         <button type="button" class="btn btn-primary btn-sm">增加</button>
+         <button type="button" class="btn btn-primary btn-sm">删除</button>
+         <button type="button" class="btn btn-primary btn-sm">修改</button>
+        <button type="button" class="btn btn-primary btn-sm">查询</button>
+            </div>
+	</div>
+        </div>
+
 	<div class="row clearfix">
-		<div class="col-md-12 column">
-			
+		<div class="col-md-12 column" style="border-top: 2px solid black;height:100px;margin-top: 50px;display:block">
+		   
 		</div>
 	</div>
 

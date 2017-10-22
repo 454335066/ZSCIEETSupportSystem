@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ManageVocationalGoal.aspx.cs" Inherits="Boot.ManagevocationalGoal" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ManageCoreCompetency_education.aspx.cs" Inherits="Boot.ManageCoreCompetency_education" %>
+
 
 <!DOCTYPE html>
 
@@ -169,7 +170,7 @@
 		                                           </div>
 		                                           <div class="panel-body">
 		                                                <a href="ManageCollegeList.aspx">管理专业每年实际开课清单</a>
-		                                           </div> 
+		                                           </div>  
 		                                           <div class="panel-body">
 		                                                <a href="relation4_4.aspx">管理专业课与核心能力关联表信息</a>
 		                                           </div>    
@@ -220,39 +221,127 @@
                         </div>
 					</div>
 				</div>
-				<div class="col-md-9 column">
-                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource3" Height="425px" Width="819px">
-                        <Columns>
-                            <asp:BoundField DataField="学年度" HeaderText="学年度" SortExpression="学年度" />
-                            <asp:BoundField DataField="专业" HeaderText="专业" SortExpression="专业" />
-                        </Columns>
-                    </asp:GridView>
-				    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ManageVocationalGoalConnectionString %>" SelectCommand="SELECT * FROM [VocationalGoal]"></asp:SqlDataSource>
-				
-	               <br />
-                    <br />
-                    <br />
-                    <br />
-                    <span style="position:absolute; right:200px; bottom:0px;">                               <!--将控件放在右下角-->
-                   <button type="button" class="btn btn-primary">增加</button>
-                    </span>
-                     <span style="position:absolute; right:150px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">删除</button>
-                    </span>
-                    <span style="position:absolute; right:100px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">查询</button>
-                     </span>
-                    <span style="position:absolute; right:50px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">修改</button>
-                    </span>
-	 </div>
+        <div class="col-md-9 column">
+        <table class="auto-style1" border="1">
+            <tr>
+                <td class="auto-style4">学年度</td>
+                <td class="auto-style6">专业教育目标</td>
+                <td class="auto-style3">请勾选相关联之学生核心能力</td>
+            </tr>
+            <tr>
+                <td class="auto-style5" rowspan="6">2017~2018</td>
+                <td class="auto-style7">目标一</td>
+                <td class="auto-style2">
+                    <asp:CheckBox ID="CheckBox1" runat="server" />
+                    核心能力1<br />
+                    <asp:CheckBox ID="CheckBox2" runat="server" />
+                    核心能力2<br />
+                    <asp:CheckBox ID="CheckBox3" runat="server" />
+                    核心能力3<br />
+                    <asp:CheckBox ID="CheckBox4" runat="server" />
+                    核心能力4<br />
+                    <asp:CheckBox ID="CheckBox5" runat="server" />
+                    核心能力5<br />
+                    <asp:CheckBox ID="CheckBox6" runat="server" />
+                    核心能力6<br />
+                    <asp:CheckBox ID="CheckBox7" runat="server" />
+                    核心能力7</td>
+            </tr>
+            <tr>
+                
+                <td class="auto-style7">目标二</td>
+                <td class="auto-style2">
+                    <asp:CheckBox ID="CheckBox8" runat="server" />
+                    核心能力1<br />
+                    <asp:CheckBox ID="CheckBox9" runat="server" />
+                    核心能力2<br />
+                    <asp:CheckBox ID="CheckBox10" runat="server" />
+                    核心能力3<br />
+                    <asp:CheckBox ID="CheckBox11" runat="server" />
+                    核心能力4<br />
+                    <asp:CheckBox ID="CheckBox12" runat="server" />
+                    核心能力5<br />
+                    <asp:CheckBox ID="CheckBox13" runat="server" />
+                    核心能力6<br />
+                    <asp:CheckBox ID="CheckBox14" runat="server" />
+                    核心能力7</td>
+            </tr>
+            <tr>
+                
+                <td class="auto-style7">目标三</td>
+                <td class="auto-style2">
+                    <asp:CheckBox ID="CheckBox15" runat="server" />
+                    核心能力1<br />
+                    <asp:CheckBox ID="CheckBox16" runat="server" />
+                    核心能力2<br />
+                    <asp:CheckBox ID="CheckBox17" runat="server" />
+                    核心能力3<br />
+                    <asp:CheckBox ID="CheckBox18" runat="server" />
+                    核心能力4<br />
+                    <asp:CheckBox ID="CheckBox19" runat="server" />
+                    核心能力5<br />
+                    <asp:CheckBox ID="CheckBox20" runat="server" />
+                    核心能力6<br />
+                    <asp:CheckBox ID="CheckBox21" runat="server" />
+                    核心能力7</td>
+            </tr>
+            <tr>
+                
+                <td class="auto-style7">目标四</td>
+                <td class="auto-style2">
+                    <asp:CheckBox ID="CheckBox22" runat="server" />
+                    核心能力1<br />
+                    <asp:CheckBox ID="CheckBox23" runat="server" />
+                    核心能力2<br />
+                    <asp:CheckBox ID="CheckBox24" runat="server" />
+                    核心能力3<br />
+                    <asp:CheckBox ID="CheckBox25" runat="server" />
+                    核心能力4<br />
+                    <asp:CheckBox ID="CheckBox26" runat="server" />
+                    核心能力5<br />
+                    <asp:CheckBox ID="CheckBox27" runat="server" />
+                    核心能力6<br />
+                    <asp:CheckBox ID="CheckBox28" runat="server" />
+                    核心能力7</td>
+            </tr>
+            <tr>
+                
+                <td class="auto-style7">目标五</td>
+                <td class="auto-style2">
+                    <asp:CheckBox ID="CheckBox29" runat="server" />
+                    核心能力1<br />
+                    <asp:CheckBox ID="CheckBox30" runat="server" />
+                    核心能力2<br />
+                    <asp:CheckBox ID="CheckBox31" runat="server" />
+                    核心能力3<br />
+                    <asp:CheckBox ID="CheckBox32" runat="server" />
+                    核心能力4<br />
+                    <asp:CheckBox ID="CheckBox33" runat="server" />
+                    核心能力5<br />
+                    <asp:CheckBox ID="CheckBox34" runat="server" />
+                    核心能力6<br />
+                    <asp:CheckBox ID="CheckBox35" runat="server" />
+                    核心能力7</td>
+            </tr>
+                        
+            </table>
+                    
+				</div>
+        <div style="float:right ;padding-top:50px">
+         <button type="button" class="btn btn-primary btn-sm">增加</button>
+         <button type="button" class="btn btn-primary btn-sm">删除</button>
+         <button type="button" class="btn btn-primary btn-sm">修改</button>
+        <button type="button" class="btn btn-primary btn-sm">查询</button>
+            </div>
+	</div>
+        </div>
+
 	<div class="row clearfix">
-		<div class="col-md-12 column">
-			
+		<div class="col-md-12 column" style="border-top: 2px solid black;height:100px;margin-top: 50px;display:block">
+		   
 		</div>
 	</div>
 
-</div>
     </form>
     <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>  

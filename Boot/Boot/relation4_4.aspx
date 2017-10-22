@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ManageVocationalGoal.aspx.cs" Inherits="Boot.ManagevocationalGoal" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ManageCoreCompetency_education.aspx.cs" Inherits="Boot.ManageCoreCompetency_education" %>
+
 
 <!DOCTYPE html>
 
@@ -164,7 +165,7 @@
 		                                      </h4>
 		                                      </div>
 		                                      <div id="collapseFour1" class="panel-collapse collapse">
-		                                           <div class="panel-body">
+		                                          <div class="panel-body">
 		                                                <a href="ManageCollegemap.aspx">管理专业课程地图信息</a>
 		                                           </div>
 		                                           <div class="panel-body">
@@ -220,39 +221,37 @@
                         </div>
 					</div>
 				</div>
-				<div class="col-md-9 column">
-                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource3" Height="425px" Width="819px">
-                        <Columns>
-                            <asp:BoundField DataField="学年度" HeaderText="学年度" SortExpression="学年度" />
-                            <asp:BoundField DataField="专业" HeaderText="专业" SortExpression="专业" />
-                        </Columns>
-                    </asp:GridView>
-				    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ManageVocationalGoalConnectionString %>" SelectCommand="SELECT * FROM [VocationalGoal]"></asp:SqlDataSource>
-				
-	               <br />
-                    <br />
-                    <br />
-                    <br />
-                    <span style="position:absolute; right:200px; bottom:0px;">                               <!--将控件放在右下角-->
-                   <button type="button" class="btn btn-primary">增加</button>
-                    </span>
-                     <span style="position:absolute; right:150px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">删除</button>
-                    </span>
-                    <span style="position:absolute; right:100px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">查询</button>
-                     </span>
-                    <span style="position:absolute; right:50px; bottom:0px;">
-                    <button type="button" class="btn btn-primary" value="Send">修改</button>
-                    </span>
-	 </div>
+        <div class="col-md-9 column">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="课程" DataSourceID="SqlDataSource1">
+            <Columns>
+                <asp:BoundField DataField="课程" HeaderText="课程" ReadOnly="True" SortExpression="课程" />
+                <asp:BoundField DataField="运用数学、科学及工程知识的能力" HeaderText="运用数学、科学及工程知识的能力" SortExpression="运用数学、科学及工程知识的能力" />
+                <asp:BoundField DataField="设计与执行实验，以及分析与解释数据的能力" HeaderText="设计与执行实验，以及分析与解释数据的能力" SortExpression="设计与执行实验，以及分析与解释数据的能力" />
+                <asp:BoundField DataField="执行工程实务所需的技术、技巧及使用现代工具的能力" HeaderText="执行工程实务所需的技术、技巧及使用现代工具的能力" SortExpression="执行工程实务所需的技术、技巧及使用现代工具的能力" />
+                <asp:BoundField DataField="设计工程系统、组件或制程的能力" HeaderText="设计工程系统、组件或制程的能力" SortExpression="设计工程系统、组件或制程的能力" />
+                <asp:BoundField DataField="专案管理(含经费规划)、有效沟通、领域整合与团队合作的能力" HeaderText="专案管理(含经费规划)、有效沟通、领域整合与团队合作的能力" SortExpression="专案管理(含经费规划)、有效沟通、领域整合与团队合作的能力" />
+                <asp:BoundField DataField="发掘、分析、应用研究成果及因应复杂且整合性工程的能力" HeaderText="发掘、分析、应用研究成果及因应复杂且整合性工程的能力" SortExpression="发掘、分析、应用研究成果及因应复杂且整合性工程的能力" />
+                <asp:BoundField DataField="认识时事议题，了解工程技术对环境、社会及全球的影响，并培养持续学习习惯与能力" HeaderText="认识时事议题，了解工程技术对环境、社会及全球的影响，并培养持续学习习惯与能力" SortExpression="认识时事议题，了解工程技术对环境、社会及全球的影响，并培养持续学习习惯与能力" />
+                <asp:BoundField DataField="理解及应用专业伦理，认知社会责任及尊重多元观点" HeaderText="理解及应用专业伦理，认知社会责任及尊重多元观点" SortExpression="理解及应用专业伦理，认知社会责任及尊重多元观点" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ManageCoreCompetencyConnectionString %>" SelectCommand="SELECT * FROM [relation1]"></asp:SqlDataSource>        
+		</div>
+        <div style="float:right ;padding-top:50px">
+         <button type="button" class="btn btn-primary btn-sm">增加</button>
+         <button type="button" class="btn btn-primary btn-sm">删除</button>
+         <button type="button" class="btn btn-primary btn-sm">修改</button>
+        <button type="button" class="btn btn-primary btn-sm">查询</button>
+            </div>
+	</div>
+        </div>
+
 	<div class="row clearfix">
-		<div class="col-md-12 column">
-			
+		<div class="col-md-12 column" style="border-top: 2px solid black;height:100px;margin-top: 50px;display:block">
+		   
 		</div>
 	</div>
 
-</div>
     </form>
     <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>  

@@ -48,6 +48,7 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -76,8 +77,13 @@
     <Content Include="images\4.png" />
     <Content Include="ManageAbility.aspx" />
     <Content Include="ManageCollegeGoal.aspx" />
+    <Content Include="ManageCollegeList.aspx" />
+    <Content Include="ManageCollegemap.aspx" />
+    <Content Include="ManageCoreCompetency.aspx" />
+    <Content Include="ManageCoreCompetency_education.aspx" />
     <Content Include="ManageVocationalGoal.aspx" />
     <Content Include="MangeCourseInformation.aspx" />
+    <Content Include="relation4_4.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="WebForm1.aspx" />
@@ -92,6 +98,14 @@
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
     <Content Include="ManageSchoolGoal.aspx" />
+    <Content Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,6 +122,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
     <Compile Include="ManageAbility.aspx.cs">
       <DependentUpon>ManageAbility.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,6 +140,34 @@
     </Compile>
     <Compile Include="ManageCollegeGoal.aspx.designer.cs">
       <DependentUpon>ManageCollegeGoal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCollegeList.aspx.cs">
+      <DependentUpon>ManageCollegeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCollegeList.aspx.designer.cs">
+      <DependentUpon>ManageCollegeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCollegemap.aspx.cs">
+      <DependentUpon>ManageCollegemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCollegemap.aspx.designer.cs">
+      <DependentUpon>ManageCollegemap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCoreCompetency.aspx.cs">
+      <DependentUpon>ManageCoreCompetency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCoreCompetency.aspx.designer.cs">
+      <DependentUpon>ManageCoreCompetency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCoreCompetency_education.aspx.cs">
+      <DependentUpon>ManageCoreCompetency_education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCoreCompetency_education.aspx.designer.cs">
+      <DependentUpon>ManageCoreCompetency_education.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageVocationalGoal.aspx.cs">
       <DependentUpon>ManageVocationalGoal.aspx</DependentUpon>
@@ -137,6 +184,13 @@
       <DependentUpon>MangeCourseInformation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="relation4_4.aspx.cs">
+      <DependentUpon>relation4_4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="relation4_4.aspx.designer.cs">
+      <DependentUpon>relation4_4.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -152,7 +206,9 @@
       <DependentUpon>ManageSchoolGoal.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ManageCoreCompetency" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=XSON-PC;Initial Catalog=ManageCoreCompetency;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ManageCoreCompetencyConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TB_CoreCompetency" Member="TB_CoreCompetency">
+    <Type Name="TB_CoreCompetency">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CoreCompetency" Type="System.String" DbType="NChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="Specialty" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Version" Type="System.String" DbType="NChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.relation1" Member="relation1">
+    <Type Name="relation1">
+      <Column Name="课程" Type="System.String" DbType="NChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[运用数学、科学及工程知识的能力]" Member="运用数学_科学及工程知识的能力" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[设计与执行实验，以及分析与解释数据的能力]" Member="设计与执行实验_以及分析与解释数据的能力" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[执行工程实务所需的技术、技巧及使用现代工具的能力]" Member="执行工程实务所需的技术_技巧及使用现代工具的能力" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[设计工程系统、组件或制程的能力]" Member="设计工程系统_组件或制程的能力" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[专案管理(含经费规划)、有效沟通、领域整合与团队合作的能力]" Member="专案管理_含经费规划__有效沟通_领域整合与团队合作的能力" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[发掘、分析、应用研究成果及因应复杂且整合性工程的能力]" Member="发掘_分析_应用研究成果及因应复杂且整合性工程的能力" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[认识时事议题，了解工程技术对环境、社会及全球的影响，并培养持续学习习惯与能力]" Member="认识时事议题_了解工程技术对环境_社会及全球的影响_并培养持续学习习惯与能力" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[理解及应用专业伦理，认知社会责任及尊重多元观点]" Member="理解及应用专业伦理_认知社会责任及尊重多元观点" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -14,9 +14,6 @@
         a:focus{
             text-decoration:none;
         }
-        auto-style1{
-            text-align:center;
-        }
     </style>
 	
 </head>
@@ -116,16 +113,16 @@
 			                    </div>
 			                    <div id="collapseThree" class="panel-collapse collapse">
 			                        <div class="panel-body">
-			                            <a href="#">管理专业学生核心能力</a>
+			                            <a href="ManageCoreCompetency.aspx">管理专业学生核心能力</a>
 			                        </div>
                                     <div class="panel-body">
-			                            <a href="#">管理专业核心能力涵养EAC核心能力关联表信息</a>
+			                            <a href="ManageAbility.aspx">管理专业核心能力涵养EAC核心能力关联表信息</a>
 			                        </div>  
                                     <div class="panel-body">
 			                            <a href="#">管理各个课程与核心能力的关联表信息</a>
 			                        </div> 
                                     <div class="panel-body">
-			                            <a href="#">管理教育目标与学生核心能力关联表信息</a>
+			                            <a href="ManageCoreCompetency_education.aspx">管理教育目标与学生核心能力关联表信息</a>
 			                        </div> 
                                     <div class="panel-body">
 			                            <a href="#">管理课程大纲信息</a>
@@ -158,7 +155,7 @@
 			                    </div>
 			                    <div id="collapseFour" class="panel-collapse collapse">
 			                        <div class="panel-body">
-			                            <a href="#">管理课程分析及评估表信息</a>
+			                            <a href="MangeCourseInformation.aspx">管理课程分析及评估表信息</a>
 			                        </div>
                                     <div class="panel panel-default">
 		                                 <div class="panel-heading">
@@ -168,13 +165,13 @@
 		                                      </div>
 		                                      <div id="collapseFour1" class="panel-collapse collapse">
 		                                           <div class="panel-body">
-		                                                <a href="#">管理专业课程地图信息</a>
+		                                                <a href="ManageCollegemap.aspx">管理专业课程地图信息</a>
 		                                           </div>
 		                                           <div class="panel-body">
-		                                                <a href="#">管理专业每年实际开课清单</a>
+		                                                <a href="ManageCollegeList.aspx">管理专业每年实际开课清单</a>
 		                                           </div> 
 		                                           <div class="panel-body">
-		                                                <a href="#">管理专业课与核心能力关联表信息</a>
+		                                                <a href="relation4_4.aspx">管理专业课与核心能力关联表信息</a>
 		                                           </div>    
 		                                           <div class="panel-body">
 		                                                <a href="#">其他材料信息</a>
