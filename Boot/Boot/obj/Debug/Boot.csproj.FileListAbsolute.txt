@@ -1,0 +1,171 @@
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\csc.exe
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\csc.exe.config
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\csc.rsp
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\csi.exe
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\csi.exe.config
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\csi.rsp
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.AppContext.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Collections.Immutable.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Console.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Diagnostics.Process.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.IO.Compression.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.IO.FileSystem.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.IO.Pipes.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Reflection.Metadata.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Security.AccessControl.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Security.Claims.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Security.Principal.Windows.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Threading.Thread.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.ValueTuple.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Xml.XmlDocument.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Xml.XPath.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\vbc.exe
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\vbc.exe.config
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\vbc.rsp
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\VBCSCompiler.exe
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\roslyn\VBCSCompiler.exe.config
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\Boot.dll.config
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\Boot.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\Boot.pdb
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\vs2017offline\WorkSpace\Boot\Boot\obj\Debug\Boot.csprojResolveAssemblyReference.cache
+D:\vs2017offline\WorkSpace\Boot\Boot\obj\Debug\Boot.csproj.CoreCompileInputs.cache
+D:\vs2017offline\WorkSpace\Boot\Boot\obj\Debug\Boot.dll
+D:\vs2017offline\WorkSpace\Boot\Boot\obj\Debug\Boot.pdb
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\csc.exe
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\csc.exe.config
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\csc.rsp
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\csi.exe
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\csi.exe.config
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\csi.rsp
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.AppContext.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Collections.Immutable.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Console.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Diagnostics.Process.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.IO.Compression.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.IO.FileSystem.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.IO.Pipes.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Security.AccessControl.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Security.Claims.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Security.Principal.Windows.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Threading.Thread.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.ValueTuple.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Xml.XPath.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\vbc.exe
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\vbc.exe.config
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\vbc.rsp
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\VBCSCompiler.exe
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\roslyn\VBCSCompiler.exe.config
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\Boot.dll.config
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\Boot.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\Boot.pdb
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS2017  Program\Boot(2)\Boot\Boot\obj\Debug\Boot.csprojResolveAssemblyReference.cache
+D:\VS2017  Program\Boot(2)\Boot\Boot\obj\Debug\Boot.csproj.CoreCompileInputs.cache
+D:\VS2017  Program\Boot(2)\Boot\Boot\obj\Debug\Boot.dll
+D:\VS2017  Program\Boot(2)\Boot\Boot\obj\Debug\Boot.pdb
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\csc.exe
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\csc.exe.config
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\csc.rsp
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\csi.exe
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\csi.exe.config
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\csi.rsp
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.AppContext.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Collections.Immutable.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Console.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Diagnostics.Process.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.IO.Compression.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.IO.FileSystem.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.IO.Pipes.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Security.AccessControl.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Security.Claims.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Security.Principal.Windows.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Threading.Thread.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.ValueTuple.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Xml.XPath.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\vbc.exe
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\vbc.exe.config
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\vbc.rsp
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\VBCSCompiler.exe
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\roslyn\VBCSCompiler.exe.config
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\Boot.dll.config
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\Boot.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\Boot.pdb
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\obj\Debug\Boot.csprojResolveAssemblyReference.cache
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\obj\Debug\Boot.csproj.CoreCompileInputs.cache
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\obj\Debug\Boot.dll
+D:\VS2017  Program\Boot(2)\ZSCIEETSupportSystem\Boot\Boot\obj\Debug\Boot.pdb
